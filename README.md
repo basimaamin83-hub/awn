@@ -1,17 +1,24 @@
-# awn
+Overview
 
-A new Flutter project.
+Awn is a Flutter application that connects people with disabilities and volunteers in Jordan. The app provides an inclusive and accessible platform to request and offer help through both urgent and scheduled support features.
 
-## Getting Started
+Key Features
+Bilingual support (Arabic / English) with RTL support
+Role-based dashboards (users and volunteers)
+Maps integration and geolocation services
+Support for urgent and scheduled assistance requests
+Getting Started
 
-This project is a starting point for a Flutter application.
+To run the project locally:
 
-A few resources to get you started if this is your first Flutter project:
+flutter pub get
+flutter run
+Configuration
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Make sure to configure Google Maps API keys in the following files:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+web/index.html
+AndroidManifest.xml
+AppDelegate.swift
+
+Refer to lib/core/maps_config.dart for more details.
